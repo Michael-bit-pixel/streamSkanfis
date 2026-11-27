@@ -93,7 +93,7 @@ st.dataframe(dfm,lazy=True,alt="The different between other Scikit-ANFIS and oth
 st.divider()
 
 st.subheader(':violet[Scikit]-:red[ANFIS] :green[architecture]',text_alignment='left',icon=':material/schema:',divider="rainbow")
-st.image('scikit-anfis/skanfis_architecture.png', caption=':red[Overview] :gray[of] :violet[Scikit-ANFIS] :green[architecture] :moyai:', alt='Scikit-ANFIS architecture')
+st.image('image/skanfis_architecture.png', caption=':red[Overview] :gray[of] :violet[Scikit-ANFIS] :green[architecture] :moyai:', alt='Scikit-ANFIS architecture')
 st.divider()
 
 st.subheader(':green[Manual] :violet[Generation] :red[Method]',text_alignment='left',icon=':material/fiber_manual_record:',divider="rainbow")
