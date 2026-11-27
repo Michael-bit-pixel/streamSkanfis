@@ -319,7 +319,6 @@ if tab2.open:
 
 if tab3.open:
     with tab3:
-        st.line_chart(data=get_chart())
         with open("scikit_anfis.pdf",'rb') as f:
             st.sidebar.download_button(
                 label='Download Journal',
