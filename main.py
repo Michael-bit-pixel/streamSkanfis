@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import time
-import scikit_machine as sm
+# import scikit_machine as sm
 
 
-st.title(':blue[Watering] Actions Dataset ',icon=':material/water_ph:',text_alignment='center')
+st.title(':blue[Watering] ANFIS Method  ',icon=':material/water_ph:',text_alignment='center')
 st.divider()
 
 left,right = st.columns(2,vertical_alignment='center')
